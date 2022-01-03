@@ -1,0 +1,69 @@
+.fourth-img-container {
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mySwiper {
+  height: 70vh;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-pagination {
+  text-align: left;
+}
+
+.fourth-text-container {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0px;
+}
+
+.fourth-text-count {
+  z-index: 1;
+  top: -100px;
+}
+
+.fourth-text-current-count {
+  font-size: 3em;
+}
+
+.fourth-text-directions {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .fourth-text-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .fourth-text-count {
+    font-size: 1em;
+    top: 0;
+  }
+  .fourth-text-directions {
+    position: relative;
+    top: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,140 @@
+.third-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-left-section,
+.third-right-section {
+  width: 50%;
+  height: 80vh;
+  position: static;
+}
+
+.third-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-title-text-container {
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.third-title-text {
+  position: absolute;
+  top: -25px;
+}
+
+.third-side-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.third-side-text-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px;
+  font-size: 0.8em;
+  right: 30px;
+  top: 50px;
+}
+
+.third-side-text-container-wrapper {
+  padding: 20px 0;
+  line-height: 20px;
+}
+
+.third-side-header {
+  padding-bottom: 10px;
+}
+
+.third-left-btn {
+  top: 100px;
+}
+
+.third-img-container {
+  height: 80vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../images/thirdSectionImg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-img-text-container {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .third-section {
+    flex-direction: column-reverse;
+  }
+
+  .third-left-section,
+  .third-right-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .third-title-text-container {
+    justify-content: center;
+  }
+
+  .third-title-text {
+    position: relative;
+    top: unset;
+  }
+
+  .third-side-text-container {
+    right: 0px;
+    top: 0px;
+    max-width: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .third-side-text-container-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .third-img-container {
+    height: 45vh;
+  }
+  .mobile-img-text-container {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .third-side-text-container-wrapper {
+    width: 100%;
+  }
+
+  .third-side-text-container-wrapper:first-of-type {
+    padding-top: 0px;
+  }
+
+  .third-img-container {
+    height: 35vh;
+  }
+}

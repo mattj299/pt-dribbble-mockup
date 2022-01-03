@@ -1,0 +1,53 @@
+.hero-text {
+  text-align: center;
+  position: relative;
+}
+
+.hero-title {
+  top: 20px;
+}
+
+.hero-main-header {
+  font-size: 3em;
+  line-height: 45px;
+  letter-spacing: -1px;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .hero-main-header {
+    font-size: 2em;
+  }
+
+  .hero-title {
+    top: 0;
+  }
+}
+
+.hero-img {
+  background-image: url("../../images/heroImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-title-extra {
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title-extra-icon {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -2px;
+  position: relative;
+}

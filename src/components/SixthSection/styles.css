@@ -1,0 +1,83 @@
+.sixth-section {
+  height: 100%;
+  background-image: url("../../images/sixthSectionImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sixth-section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 150px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sixth-section-text-container {
+  height: 70vh;
+}
+
+.sixth-section-creator-banner-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sixth-section-creator-banner {
+  background-color: black;
+  height: 100px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 0.8em;
+}
+
+.sixth-creator-img {
+  background-image: url("../../images/creatorBannerImg.jpg");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.sixth-creator-description {
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .sixth-section-creator-banner {
+    height: 75px;
+    width: 300px;
+    font-size: 0.75em;
+  }
+  .sixth-creator-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

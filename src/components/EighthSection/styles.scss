@@ -1,0 +1,68 @@
+.eighth-text {
+  left: 1%;
+}
+
+.eighth-img {
+  background-image: url("../../images/eighthSectionImg.jpg");
+}
+
+.eighth-img-container {
+  top: -20px;
+}
+
+.eighth-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.eighth-title {
+  display: inline-block;
+}
+
+.eighth-title-extra {
+  font-size: 0.7em;
+  font-weight: 700;
+  top: -15px;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+}
+
+.eighth-title-extra-numbers {
+  font-weight: 700;
+}
+
+.eighth-title-extra-icon {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -2px;
+  position: relative;
+}
+
+.eighth-title-extra-numbers {
+  position: absolute;
+  right: -25px;
+  top: -15px;
+}
+
+@media (max-width: 600px) {
+  .eighth-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .eighth-title-extra {
+    font-size: 0.6em;
+  }
+
+  .eighth-img-container {
+    top: 0px;
+  }
+}
