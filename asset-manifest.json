@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pt-dribbble-mockup/static/css/main.6f99e3cf.css",
+    "main.js": "/pt-dribbble-mockup/static/js/main.95fa3eb8.js",
+    "static/media/thirdSectionImg.jpg": "/pt-dribbble-mockup/static/media/thirdSectionImg.3d8b18a0ff6dc32bb3fe.jpg",
+    "static/media/eighthSectionImg.jpg": "/pt-dribbble-mockup/static/media/eighthSectionImg.949a7487e31a54f3d67b.jpg",
+    "static/media/carouselFirstImg.jpg": "/pt-dribbble-mockup/static/media/carouselFirstImg.017baccc2916c3551a92.jpg",
+    "static/media/sixthSectionImg.jpg": "/pt-dribbble-mockup/static/media/sixthSectionImg.76f86b840a656a4de8ec.jpg",
+    "static/media/secondSectionImg.jpg": "/pt-dribbble-mockup/static/media/secondSectionImg.db51bb7aade08382b347.jpg",
+    "static/media/heroImg.jpg": "/pt-dribbble-mockup/static/media/heroImg.31f86955911e8c7c033f.jpg",
+    "static/media/carouselSecondImg.jpg": "/pt-dribbble-mockup/static/media/carouselSecondImg.7332e1369bf9e8bb8088.jpg",
+    "static/media/seventhSectionImg.jpg": "/pt-dribbble-mockup/static/media/seventhSectionImg.c311ac5d79c849f69221.jpg",
+    "static/media/creatorBannerImg.jpg": "/pt-dribbble-mockup/static/media/creatorBannerImg.188398f7c86b6641a17c.jpg",
+    "index.html": "/pt-dribbble-mockup/index.html",
+    "main.6f99e3cf.css.map": "/pt-dribbble-mockup/static/css/main.6f99e3cf.css.map",
+    "main.95fa3eb8.js.map": "/pt-dribbble-mockup/static/js/main.95fa3eb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f99e3cf.css",
+    "static/js/main.95fa3eb8.js"
+  ]
+}
